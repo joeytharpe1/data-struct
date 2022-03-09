@@ -1,4 +1,7 @@
-/* write a function which accepts an array of int and a number called num. the function should calculate the maxium sum of n consecutive elements in the array */
+/* write a function which accepts an array of int and a number called num. the function should calculate the maxium sum of n consecutive elements in the array 
+
+TIME- BIG O(n)
+*/
 
 function maxSubArraySum(arr, num){
   if(num > arr.length) return null; //edge case
