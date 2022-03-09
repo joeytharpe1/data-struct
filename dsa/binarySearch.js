@@ -6,11 +6,11 @@ const num = [9, 11, 13, 15, 20, 27, 30, 32]
 const searchBinary = (arr, target) => {
 if(arr.length === 0) return -1;
   
-  let left = 0;
-  let right = arr.length-1;
+  let left = 0; //left index
+  let right = arr.length-1; // right index at end of array
 
   while(left <= right){
-    let middle = Math.floor((left + right) / 2);
+    let middle = Math.floor((left + right) / 2); // add both index then divide by 2
 
     if(arr[middle] > target){
       right = middle - 1;
