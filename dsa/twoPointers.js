@@ -1,4 +1,5 @@
 //two Pointers - count unique values in array must be sorted
+//time: big o(n)
 
 const num = [1,1,2,3,3,4,5,6,6,7]
 
