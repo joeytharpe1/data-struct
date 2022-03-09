@@ -4,6 +4,8 @@
 const num = [1,1,2,3,3,4,5,6,6,7]
 
 const countUniqueValues = (arr) => {
+  //check if arr length is empty if so return 0
+  if(arr.length === 0) return 0;
  let i = 0; //set index/pointer i at 0
   //loop through arr with second pointer at 1
   for(let j = 1; j < arr.length; j++){
