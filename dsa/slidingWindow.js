@@ -10,7 +10,8 @@ function maxSubArraySum(arr, num){
   tempSum = maxSum; //set maxsum to tempsum
   for(let i = num; i < arr.length; i++){ // set index to num variable
     tempSum = tempSum - arr[i-num] + arr[i]; // set new temp variable
-    maxSum = Math.max(maxSum, tempSum); //return the max of maxSum & tempSum
+     //return the max of maxSum & tempSum and update maxsum if temsum is larger           than max
+    maxSum = Math.max(maxSum, tempSum);
   }
   return maxSum; //finally return maxSum
 }
