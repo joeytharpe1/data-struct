@@ -1,4 +1,5 @@
 //Binary search
+//TIME: BIG O(log n)
 
 const num = [9, 11, 13, 15, 20, 27, 30, 32]
 
