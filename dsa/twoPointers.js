@@ -1,9 +1,9 @@
-//two Pointers - count unique values in array
+//two Pointers - count unique values in array must be sorted
 
 const num = [1,1,2,3,3,4,5,6,6,7]
 
 const countUniqueValues = (arr) => {
- let i = 0; //set index i at 0
+ let i = 0; //set index/pointer i at 0
   //loop through arr with second pointer at 1
   for(let j = 1; j < arr.length; j++){
     /* check if arr[i] and arr[j] are not equal 
