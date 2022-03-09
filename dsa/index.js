@@ -25,3 +25,22 @@ if(arr.length === 0) return -1;
 
 
 console.log(searchLinear(num, 27))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
