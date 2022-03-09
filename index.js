@@ -1,3 +1,5 @@
+//Binary search
+
 const num = [9, 11, 13, 15, 20, 27, 30, 32]
 
 const searchLinear = (arr, target) => {
