@@ -1,3 +1,6 @@
+//check if numbers have same frequency
+// TIME - BIG O(n)
+
 function sameFrequency(num1, num2){
   let strNum1 = num1.toString();
   let strNum2 = num2.toString();
