@@ -2,7 +2,7 @@
 // BIG O(1)
 
 function sumRange(num){
-  if(num === 1) return true;
+  if(num === 1) return 1;
   return num + sumRange(num - 1);
 }
 
