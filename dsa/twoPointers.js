@@ -2,6 +2,7 @@
 //time: big o(n)
 
 const num = [1,1,2,3,3,4,5,6,6,7]
+// 3 4
 
 const countUniqueValues = (arr) => {
   //check if arr length is empty if so return 0
